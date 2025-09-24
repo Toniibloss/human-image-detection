@@ -1,8 +1,8 @@
 # human-image-detection
 A deep learning project for human identification using ResNet50 and LFW dataset
-# 🧑‍💻 Human Identification Using Deep Learning  
+#  Human Identification Using Deep Learning  
 
-## 📌 Overview  
+##  Overview  
 This project implements a **human face identification system** using **deep learning**. It leverages the **Labeled Faces in the Wild (LFW)** dataset and a **transfer learning approach with ResNet50** to classify images of different individuals.  
 
 The system is capable of:  
@@ -12,14 +12,14 @@ The system is capable of:
 
 
 
-## 🗂️ Dataset  
+##  Dataset  
 - **Source**: [Labeled Faces in the Wild (LFW)](http://vis-www.cs.umass.edu/lfw/) dataset.  
 - **Details**: Contains 13,000+ face images of over 5,700 people, collected from the web.  
 - **Usage in project**: Only individuals with at least **50 face samples** are included for better performance.  
 
 
 
-## ⚙️ Project Workflow  
+##  Project Workflow  
 1. **Data Preprocessing**  
    - Resize & normalize images.  
    - Convert grayscale to RGB (for ResNet compatibility).  
@@ -50,14 +50,14 @@ The system is capable of:
    - Ability to classify a **new image** not in training set.  
 
 
-## 📊 Results  
+##  Results  
 - Achieved **~90% accuracy** on test set.  
 - Robust generalization on unseen images.  
 - Successful predictions on real-time test images.  
 
 
-## 🖼️ Example Output  
+## Example Output  
 ```plaintext
 True: George_W_Bush
 Predicted: George_W_Bush
-✅ Correct identification
+Correct identification
